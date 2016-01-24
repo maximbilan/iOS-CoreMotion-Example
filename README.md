@@ -1,10 +1,10 @@
 # How to use Core Motion in iOS using Swift
 
-Users generate motion events when they move, shake, or tilt the device. These motion events are detected by the device hardware, specifically, the accelerometer and the gyroscope. The Core Motion framework lets your application receive motion data from device hardware and process that data.
+Users generate motion events when they move, shake, or tilt the device. These motion events are detected by the device hardware, specifically, the accelerometer and the gyroscope. The <i><a href="https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CoreMotion_Reference/">Core Motion</a></i> framework lets your application receive motion data from device hardware and process that data.
 
 ![alt tag](https://raw.github.com/maximbilan/iOS-CoreMotion-Example/master/images/1.png)
 
-To get started import the Core Motion framework like this:
+To get started import the <i><a href="https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CoreMotion_Reference/">Core Motion</a></i> framework like this:
 
 <pre>
 import CoreMotion
@@ -39,6 +39,6 @@ func startMagnetometerUpdates()
 func startDeviceMotionUpdates()
 </pre>
 
-The source code of example using Core Motion can found here.
+The source code of example using <i><a href="https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CoreMotion_Reference/">Core Motion</a></i> can found here.
 
 Happy coding!
