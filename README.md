@@ -10,7 +10,7 @@ To get started import the <i><a href="https://developer.apple.com/library/ios/do
 import CoreMotion
 </pre>
 
-Now create an instance of CMMotionManager object. The app can use it to receive four types of motion: raw accelerometer data, raw gyroscope data, raw magnetometer data, and processed device-motion data (which includes accelerometer, rotation-rate, and attitude measurements).
+Now create an instance of <i><a href="https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CMMotionManager_Class/">CMMotionManager</a></i> object. The app can use it to receive four types of motion: raw accelerometer data, raw gyroscope data, raw magnetometer data, and processed device-motion data (which includes accelerometer, rotation-rate, and attitude measurements).
 
 <pre>
 let motionManager = CMMotionManager()
