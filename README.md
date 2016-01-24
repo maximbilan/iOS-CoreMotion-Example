@@ -29,7 +29,7 @@ if let accelerometerData = motionManager.accelerometerData {
 }
 </pre>
 
-You can change accelerometerUpdateInterval, the interval, in seconds, for providing accelerometer updates to the block handler.
+You can change <i><a href="https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CMMotionManager_Class/#//apple_ref/occ/instp/CMMotionManager/accelerometerUpdateInterval">accelerometerUpdateInterval</a></i>, the interval, in seconds, for providing accelerometer updates to the block handler.
 
 The same story for Gyroscope, Magnetometer and Device motion.
 
@@ -38,7 +38,5 @@ func startGyroUpdates()
 func startMagnetometerUpdates()
 func startDeviceMotionUpdates()
 </pre>
-
-The source code of example using <i><a href="https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CoreMotion_Reference/">Core Motion</a></i> can found here.
 
 Happy coding!
