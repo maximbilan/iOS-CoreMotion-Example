@@ -35,6 +35,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D43CF4C1C5A0086003EA4EF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6D4BABDF1C5130A60042ADA0 /* AppDelegate.swift */,
+				6D4BABE11C5130A60042ADA0 /* ViewController.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6D43CF4D1C5A008D003EA4EF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6D4BABE31C5130A60042ADA0 /* Main.storyboard */,
+				6D4BABE81C5130A60042ADA0 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		6D43CF4E1C5A0092003EA4EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D4BABEB1C5130A60042ADA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D43CF4F1C5A00A5003EA4EF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6D4BABE61C5130A60042ADA0 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		6D4BABD31C5130A60042ADA0 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +88,10 @@
 		6D4BABDE1C5130A60042ADA0 /* CoreMotionExample */ = {
 			isa = PBXGroup;
 			children = (
-				6D4BABDF1C5130A60042ADA0 /* AppDelegate.swift */,
-				6D4BABE11C5130A60042ADA0 /* ViewController.swift */,
-				6D4BABE31C5130A60042ADA0 /* Main.storyboard */,
-				6D4BABE61C5130A60042ADA0 /* Assets.xcassets */,
-				6D4BABE81C5130A60042ADA0 /* LaunchScreen.storyboard */,
-				6D4BABEB1C5130A60042ADA0 /* Info.plist */,
+				6D43CF4C1C5A0086003EA4EF /* Sources */,
+				6D43CF4D1C5A008D003EA4EF /* UI */,
+				6D43CF4F1C5A00A5003EA4EF /* Assets */,
+				6D43CF4E1C5A0092003EA4EF /* Supporting Files */,
 			);
 			path = CoreMotionExample;
 			sourceTree = "<group>";
@@ -286,6 +318,7 @@
 				6D4BABF01C5130A60042ADA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
