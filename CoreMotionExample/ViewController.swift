@@ -12,7 +12,7 @@ import CoreMotion
 class ViewController: UIViewController {
 
 	let motionManager = CMMotionManager()
-	var timer: NSTimer!
+	var timer: Timer!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 		motionManager.startMagnetometerUpdates()
 		motionManager.startDeviceMotionUpdates()
 		
-		timer = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: "update", userInfo: nil, repeats: true)
+		timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(ViewController.update), userInfo: nil, repeats: true)
 	}
 
 	func update() {
