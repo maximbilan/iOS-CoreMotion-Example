@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 		timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(ViewController.update), userInfo: nil, repeats: true)
 	}
 
-	func update() {
+	@objc func update() {
 		if let accelerometerData = motionManager.accelerometerData {
 			print(accelerometerData)
 		}
