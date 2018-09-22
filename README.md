@@ -1,6 +1,6 @@
 # Core Motion in iOS using Swift
 
-Users generate motion events when they move, shake, or tilt the device. These motion events are detected by the device hardware, specifically, the accelerometer and the gyroscope. The <i><a href="https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CoreMotion_Reference/">Core Motion</a></i> framework lets your application receive motion data from device hardware and process that data.
+Users generate motion events when they move, shake, or tilt the device. These motion events are detected by the device hardware, specifically, the accelerometer and the gyroscope. The <i><a href="https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CoreMotion_Reference/">Core Motion</a></i> framework lets your application receive motion data from the device hardware and process that data.
 
 ![alt tag](https://raw.github.com/maximbilan/iOS-CoreMotion-Example/master/images/1.png)
 
